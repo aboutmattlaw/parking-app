@@ -1,6 +1,9 @@
 import './App.css';
+import parkingData from "./ParkingData.js"
+
 
 function App() {
+  console.log(parkingData)
   return (
     <div>
       <h1>This is going to be a small app to help with knowing when I need to move the car.</h1> 
