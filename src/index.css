@@ -16,7 +16,6 @@ code {
 
 
 .day div {
-  float: left;
   border-style: solid;
   border-width: 5px;
   padding: 5px;
@@ -25,7 +24,23 @@ code {
 
 }
 
+.day-checked div {
+  border-style: solid;
+  border-width: 5px;
+  background-color: gray;
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+}
+
+
 .day img {
+  max-width: 200px;
+  margin: 10px;
+  border: 10px;
+}
+
+.day-checked img {
   max-width: 200px;
   margin: 10px;
   border: 10px;

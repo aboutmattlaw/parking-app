@@ -1,13 +1,26 @@
+import userEvent from '@testing-library/user-event'
+import {useState} from 'react'
+
 function Day ({
     occasion,
     day, 
     date,
     image = "https://cdn.vox-cdn.com/thumbor/baiAt8Qc4nWGs2JJywpPpkpssdo=/0x0:700x353/1400x1400/filters:focal(294x121:406x233):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/51616429/ios-10-shrug-emoji.0.png"
-}) {
+}) 
+
+
+
+
+{
+    const [checkedDay, setCheckedDay] = useState(false);
+    function dayClick () {
+        setCheckedDay((checkedDay) => !checkedDay);
+    }
+    
     return (
 
         
-        <div className="day">
+        <div onClick={dayClick} className={checkedDay ? "day-checked" : "day"}>
             <div>
             <img src={image}/>
             <h3>Reason: {occasion}</h3>
