@@ -7,8 +7,7 @@ import Day from "./Day"
 function App() {
   // console.log(parkingData)
 
-  const parkingDay = parkingData.map((day) => (<Day occasion={day.occasion} date = {day.date }day = {day.day} image = {day.image}/>
-    
+  const parkingDay = parkingData.map((day) => (<Day occasion={day.occasion} date = {day.date } day = {day.day} image = {day.image}/>
   ));
 
   return (
