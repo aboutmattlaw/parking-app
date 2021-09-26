@@ -1,13 +1,13 @@
-function Day (props) {
+function Day ({occasion , day , date , image}) {
     return (
 
         <div className="day">
             <div>
-            <img src={props.image}/>
-            <h3>{props.occasion}</h3>
+            <img src={image}/>
+            <h3>{occasion}</h3>
             <ul>
-                <li>{props.date}</li>
-                <li>{props.day}</li>
+                <li>{date}</li>
+                <li>{day}</li>
             </ul>
             </div>
         </div>
@@ -17,3 +17,8 @@ function Day (props) {
     
 export default Day
 
+// occasion: "Three King's Day",
+// date: "Jan 6, 2021",
+// day: "Wednesday",
+// image: "",
+// },
