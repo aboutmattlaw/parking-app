@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event'
 import {useState} from 'react'
 
 function Day ({
@@ -21,10 +20,10 @@ function Day ({
 
         
         <div onClick={dayClick} className={checkedDay ? "day-checked" : "day"}>
-            <div>
+            <div className="card text-white bg-primary mb-3">
             <img src={image}/>
-            <h3>Reason: {occasion}</h3>
-            <ul>
+            <h3 class="card-header">Reason: {occasion}</h3>
+            <ul className="card-text">
                 <li>Date: {date}</li>
                 <li>Day: {day}</li>
             </ul>

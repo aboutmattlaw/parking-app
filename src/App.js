@@ -12,10 +12,9 @@ function App() {
 
   return (
     <div>
-      <h1>A small app to help me know when I need to move the car.</h1> 
-      <h2><a href="https://www1.nyc.gov/html/dot/downloads/pdf/asp-calendar-2021.pdf">Alternate Side Parking Calendar</a></h2>
+     <h1><a href="https://www1.nyc.gov/html/dot/downloads/pdf/asp-calendar-2021.pdf">Alternate Side Parking Calendar</a></h1>
       <CurrentDate />
-      {parkingDay}
+      <div className="grid">{parkingDay}</div>
      </div>
   );
 }

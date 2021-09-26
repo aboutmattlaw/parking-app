@@ -9,9 +9,9 @@ function CurrentDate (){
     
 
     return  (
-        <>
-        <p>Today is {date}</p>
-        </>
+        <div className="alert alert-dismissible alert-warning">
+        <h3 class="nav-link active">Today is {date}</h3>
+        </div>
     )
 }
 
