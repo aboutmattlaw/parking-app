@@ -31,13 +31,13 @@ code {
 
 
 .day img {
-  max-width: 200px;
+  max-width: 350px;
   margin: 10px;
   border: 10px;
 }
 
 .day-checked img {
-  max-width: 200px;
+  max-width: 3500px;
   margin: 10px;
   border: 10px;
 }

@@ -2126,6 +2126,7 @@
   
   .form-text {
     margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
     font-size: 0.875em;
     color: rgba(255, 255, 255, 0.7);
   }

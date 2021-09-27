@@ -16,6 +16,7 @@ image: "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-196329-923573
 occasion: "MLK Day",
 date: "Jan 18, 2021",
 day: "Monday",
+image: "",
 },
 {
 occasion: "Lunar New Year's Eve",

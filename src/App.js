@@ -2,6 +2,7 @@ import './App.css';
 import parkingData from "./ParkingData"
 import CurrentDate from './CurrentDate';
 import Day from "./Day"
+import Form from './Form';
 
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
     <div>
      <h1><a href="https://www1.nyc.gov/html/dot/downloads/pdf/asp-calendar-2021.pdf">Alternate Side Parking Calendar</a></h1>
       <CurrentDate />
+      <Form />
       <div className="grid">{parkingDay}</div>
+     
      </div>
   );
 }

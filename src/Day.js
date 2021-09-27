@@ -22,7 +22,7 @@ function Day ({
         <div onClick={dayClick} className={checkedDay ? "day-checked" : "day"}>
             <div className="card text-white bg-primary mb-3">
             <img src={image}/>
-            <h3 class="card-header">Reason: {occasion}</h3>
+            <h3 className="card-header">Reason: {occasion}</h3>
             <ul className="card-text">
                 <li>Date: {date}</li>
                 <li>Day: {day}</li>
