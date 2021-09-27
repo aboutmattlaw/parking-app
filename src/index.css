@@ -37,9 +37,10 @@ code {
 }
 
 .day-checked img {
-  max-width: 3500px;
+  max-width: 350px;
   margin: 10px;
   border: 10px;
+  display: none;
 }
 
 
